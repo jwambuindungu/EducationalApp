@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maths">
+    <LinearLayout
+
+        android:id="@+id/view_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:splitMotionEvents="false">
+
+        <LinearLayout
+            android:id="@+id/a_status_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/layout1_style">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/question_1_marker"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingTop="10dp"
+                android:text="@string/question_1_maths" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/twoFiguresAddition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/maths_1_30"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_question_1_maths_30" />
+
+                    <RadioButton
+                        android:id="@+id/maths_1_34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:text="@string/radio_question_1_maths_34" />
+
+
+
+
+                    <RadioButton
+                        android:id="@+id/maths_1_40"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_question_1_maths_40" />
+
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/b_status_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/layout1_style">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/question_2_marker"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingTop="10dp"
+                android:text="@string/question_2_maths" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/twelve_checkbox"
+                    android:layout_width="wrap_content"
+                    android:includeFontPadding="true"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="@string/checkbox_answer_1_maths" />
+
+                <CheckBox
+                    android:id="@+id/thirty_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/checkbox_answer_2_maths"
+                    android:textSize="12sp" />
+
+                <CheckBox
+                    android:id="@+id/forty_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/checkbox_answer_3_maths"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c_status_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+
+            android:background="@drawable/layout1_style">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/question_3_marker"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingTop="10dp"
+                android:text="@string/question_3_maths" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/threeFiguresAddition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/three_600_radiobutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:text="@string/radio_question_3_maths_600" />
+
+                    <RadioButton
+                        android:id="@+id/three_563_radiobutton"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_question_3_maths_563" />
+
+
+                    <RadioButton
+                        android:id="@+id/three_700_radiobutton"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_question_3_maths_700" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fourth"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textStyle="italic"
+                android:text="Question 4: ">
+            </TextView>
+
+
+
+            <EditText
+                android:id="@+id/fourth_question"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/question_4_maths"
+                android:textSize="12sp"
+                android:inputType="textCapWords"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnMathsDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fourth"
+            android:layout_marginLeft="110dp"
+            android:layout_gravity="center_horizontal|center"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="12sp"
+            android:text="@string/btn_maths_display"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+

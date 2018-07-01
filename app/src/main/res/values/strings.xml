@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Educational App</string>
+    <string name="question_1_marker">Question 1: (1 Mark)</string>
+    <string name="question_2_marker">Question 2: (2 Mark)</string>
+    <string name="question_3_marker">Question 3: (1 Mark)</string>
+    <string name="question_4_marker">Question 4: (1 Mark)</string>
+    <string name="question_1">How many planets are in the universe?</string>
+    <string name="question_2">Which among these countries have hosted  World Cup in the last 20 years?</string>
+    <string name="question_3">Which continent is Iran?</string>
+    <string name="question_4"> What does Acronym  USA stand for?</string>
+
+    <string name="checkbox_answer_1">Russia</string>
+    <string name="checkbox_answer_2">Brazil</string>
+    <string name="checkbox_answer_3">Kenya</string>
+    <string name="radio_europe">EUROPE</string>
+    <string name="radio_asia">ASIA</string>
+    <string name="radio_africa">AFRICA</string>
+    <string name="btn_display">Submit Questions</string>
+    <string name="btn_maths_display">Submit Questions</string>
+
+    <string name="question_1_maths">20 + 20</string>
+
+    <string name="radio_question_1_maths_30">30</string>
+    <string name="radio_question_1_maths_40">40</string>
+    <string name="radio_question_1_maths_34">34</string>
+
+    <string name="question_2_maths">What numbers below are  multiples of 6?</string>
+    <string name="question_3_maths">500+60+3</string>
+    <string name="question_4_maths">A line that divides circles into two?</string>
+
+    <string name="checkbox_answer_1_maths">12</string>
+    <string name="checkbox_answer_2_maths">36</string>
+    <string name="checkbox_answer_3_maths">40</string>
+
+    <string name="radio_question_3_maths_600">600</string>
+    <string name="radio_question_3_maths_563">563</string>
+    <string name="radio_question_3_maths_700">700</string>
+</resources>
